@@ -1,0 +1,75 @@
+{
+ "all_identical": true,
+ "runs": [
+  {
+   "asset": "PUMP-08",
+   "cut": "2025-09-09 14:05:00+00:00",
+   "alerts_before_cut_full": 0,
+   "alerts_truncated": 0,
+   "identical": true
+  },
+  {
+   "asset": "PUMP-08",
+   "cut": "2025-09-13 23:44:00+00:00",
+   "alerts_before_cut_full": 5,
+   "alerts_truncated": 5,
+   "identical": true
+  },
+  {
+   "asset": "PUMP-09",
+   "cut": "2026-02-09 14:08:00+00:00",
+   "alerts_before_cut_full": 0,
+   "alerts_truncated": 0,
+   "identical": true
+  },
+  {
+   "asset": "PUMP-09",
+   "cut": "2026-02-13 14:27:00+00:00",
+   "alerts_before_cut_full": 3,
+   "alerts_truncated": 3,
+   "identical": true
+  },
+  {
+   "asset": "PUMP-10",
+   "cut": "2025-07-23 19:22:00+00:00",
+   "alerts_before_cut_full": 3,
+   "alerts_truncated": 3,
+   "identical": true
+  },
+  {
+   "asset": "PUMP-10",
+   "cut": "2025-07-24 11:21:00+00:00",
+   "alerts_before_cut_full": 3,
+   "alerts_truncated": 3,
+   "identical": true
+  },
+  {
+   "asset": "PUMP-11",
+   "cut": "2026-04-20 22:31:00+00:00",
+   "alerts_before_cut_full": 0,
+   "alerts_truncated": 0,
+   "identical": true
+  },
+  {
+   "asset": "PUMP-11",
+   "cut": "2026-04-22 20:10:00+00:00",
+   "alerts_before_cut_full": 0,
+   "alerts_truncated": 0,
+   "identical": true
+  },
+  {
+   "asset": "PUMP-12",
+   "cut": "2025-11-26 17:43:00+00:00",
+   "alerts_before_cut_full": 3,
+   "alerts_truncated": 3,
+   "identical": true
+  },
+  {
+   "asset": "PUMP-12",
+   "cut": "2025-11-28 15:01:00+00:00",
+   "alerts_before_cut_full": 10,
+   "alerts_truncated": 10,
+   "identical": true
+  }
+ ]
+}

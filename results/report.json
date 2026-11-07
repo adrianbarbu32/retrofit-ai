@@ -1,0 +1,145 @@
+{
+ "Ours|train": {
+  "composite_score": 98.79923898339798,
+  "event_f1": 0.9811320754716981,
+  "event_recall": 1.0,
+  "alert_precision": 0.9629629629629629,
+  "false_alerts_per_asset_day": 0.02040816326530612,
+  "timeliness": 0.9780828579107541,
+  "fault_type_recall": 1.0,
+  "class_recall": 1.0,
+  "median_lead_time_h": 0.001388888888888889
+ },
+ "Ours|validation": {
+  "composite_score": 98.27836043316162,
+  "event_f1": 1.0,
+  "event_recall": 1.0,
+  "alert_precision": 1.0,
+  "false_alerts_per_asset_day": 0.0,
+  "timeliness": 0.9139180216580812,
+  "fault_type_recall": 1.0,
+  "class_recall": 1.0,
+  "median_lead_time_h": 15.981527777777778
+ },
+ "B0_scada_alarms|train": {
+  "composite_score": 27.589574772775116,
+  "event_f1": 0.30769230769230776,
+  "event_recall": 0.23076923076923078,
+  "alert_precision": 0.46153846153846156,
+  "false_alerts_per_asset_day": 0.14285714285714285,
+  "timeliness": 0.21326994742996447,
+  "fault_type_recall": 0.038461538461538464,
+  "class_recall": 0.23076923076923078,
+  "median_lead_time_h": -0.002916666666666667
+ },
+ "B0_scada_alarms|validation": {
+  "composite_score": 23.11111111111111,
+  "event_f1": 0.19999999999999998,
+  "event_recall": 0.1111111111111111,
+  "alert_precision": 1.0,
+  "false_alerts_per_asset_day": 0.0,
+  "timeliness": 0.1111111111111111,
+  "fault_type_recall": 0.1111111111111111,
+  "class_recall": 0.1111111111111111,
+  "median_lead_time_h": null
+ },
+ "B1_mode_aware_z|train": {
+  "composite_score": 58.2456527437412,
+  "event_f1": 0.7199999999999999,
+  "event_recall": 0.6923076923076923,
+  "alert_precision": 0.75,
+  "false_alerts_per_asset_day": 0.12244897959183673,
+  "timeliness": 0.5771256513157889,
+  "fault_type_recall": 0.2692307692307692,
+  "class_recall": 0.5384615384615384,
+  "median_lead_time_h": 55.78402777777778
+ },
+ "B1_mode_aware_z|validation": {
+  "composite_score": 78.01253946421124,
+  "event_f1": 0.8888888888888888,
+  "event_recall": 0.8888888888888888,
+  "alert_precision": 0.8888888888888888,
+  "false_alerts_per_asset_day": 0.07142857142857142,
+  "timeliness": 0.8629285605121501,
+  "fault_type_recall": 0.4444444444444444,
+  "class_recall": 0.8888888888888888,
+  "median_lead_time_h": 8.289861111111112
+ },
+ "B2_cusum|train": {
+  "composite_score": 53.29931147733669,
+  "event_f1": 0.4842105263157894,
+  "event_recall": 0.8846153846153846,
+  "alert_precision": 0.3333333333333333,
+  "false_alerts_per_asset_day": 0.9387755102040817,
+  "timeliness": 0.811906414980608,
+  "fault_type_recall": 0.2692307692307692,
+  "class_recall": 0.8076923076923077,
+  "median_lead_time_h": -0.08194444444444444
+ },
+ "B2_cusum|validation": {
+  "composite_score": 50.918487115801206,
+  "event_f1": 0.45161290322580644,
+  "event_recall": 0.7777777777777778,
+  "alert_precision": 0.3181818181818182,
+  "false_alerts_per_asset_day": 1.0714285714285714,
+  "timeliness": 0.7734589180020416,
+  "fault_type_recall": 0.3333333333333333,
+  "class_recall": 0.6666666666666666,
+  "median_lead_time_h": 13.648194444444444
+ },
+ "B3_isolation_forest|train": {
+  "composite_score": 39.37077007998908,
+  "event_f1": 0.4680851063829788,
+  "event_recall": 0.4230769230769231,
+  "alert_precision": 0.5238095238095238,
+  "false_alerts_per_asset_day": 0.20408163265306123,
+  "timeliness": 0.4119484375309677,
+  "fault_type_recall": 0.07692307692307693,
+  "class_recall": 0.38461538461538464,
+  "median_lead_time_h": 108.85027777777778
+ },
+ "B3_isolation_forest|validation": {
+  "composite_score": 69.1624895572264,
+  "event_f1": 0.7368421052631577,
+  "event_recall": 0.7777777777777778,
+  "alert_precision": 0.7,
+  "false_alerts_per_asset_day": 0.21428571428571427,
+  "timeliness": 0.7777777777777778,
+  "fault_type_recall": 0.4444444444444444,
+  "class_recall": 0.7777777777777778,
+  "median_lead_time_h": 6.831527777777778
+ },
+ "Ours|synthetic hold-out": {
+  "composite_score": 88.60648365573176,
+  "event_f1": 0.9090909090909092,
+  "event_recall": 0.9131736526946108,
+  "alert_precision": 0.9050445103857567,
+  "false_alerts_per_asset_day": 0.06095238095238095,
+  "timeliness": 0.8628867200497244,
+  "fault_type_recall": 0.8353293413173652,
+  "class_recall": 0.8952095808383234,
+  "median_lead_time_h": 0.4761111111111111
+ },
+ "B0_scada_alarms|synthetic hold-out": {
+  "composite_score": 27.326322544948688,
+  "event_f1": 0.29437229437229434,
+  "event_recall": 0.20359281437125748,
+  "alert_precision": 0.53125,
+  "false_alerts_per_asset_day": 0.11428571428571428,
+  "timeliness": 0.17988574126615034,
+  "fault_type_recall": 0.08083832335329341,
+  "class_recall": 0.19760479041916168,
+  "median_lead_time_h": -0.002916666666666667
+ },
+ "B1_mode_aware_z|synthetic hold-out": {
+  "composite_score": 55.85065258826215,
+  "event_f1": 0.6731078904991948,
+  "event_recall": 0.625748502994012,
+  "alert_precision": 0.7282229965156795,
+  "false_alerts_per_asset_day": 0.14857142857142858,
+  "timeliness": 0.5372157200985412,
+  "fault_type_recall": 0.27844311377245506,
+  "class_recall": 0.5329341317365269,
+  "median_lead_time_h": 1.9113888888888888
+ }
+}

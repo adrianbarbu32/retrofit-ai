@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+pack/data/
+pack/*.egg-info/
+*.egg-info/
+results/operator_log.jsonl
+docs/deck_png/
+.streamlit/
+models/type_models_v*.joblib
+BusinessTurku_*.zip
+submission_kit/
+team_share/

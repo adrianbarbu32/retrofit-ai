@@ -1,0 +1,11 @@
+{
+ "asset": "PUMP-08",
+ "messages": 302400,
+ "minutes_processed": 5040,
+ "diagnosis_runs": 167,
+ "latency_ms_median": 259.3,
+ "latency_ms_p95": 369.1,
+ "peak_memory_mb": 341.9,
+ "alerts": 3,
+ "note": "full-history recomputation each minute (simple, deterministic); an incremental version would be cheaper"
+}

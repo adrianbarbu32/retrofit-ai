@@ -1,0 +1,5 @@
+- **Synthetic, simulator-to-simulator.** Training, validation and test data all come from the organizers' simulator family, so measured scores overstate field performance. Faults outside the simulator (seal leaks, electrical faults, water hammer) are not covered.
+- **Healthy-model parameters.** Values not in the datasheet (exact motor efficiency, vibration base levels) use documented defaults. A real pump needs a commissioning baseline: pilot step 1 is 4-6 weeks of read-only data.
+- **Only what the instruments can see.** Without a vibration sensor there are no reliable bearing, imbalance or misalignment alerts. The pump view states each pump's blind spots.
+- **Small official validation set.** 9 events on 2 pumps, so a single event moves the composite by about 5 points. We also report 75 unseen synthetic pumps with a bootstrap interval.
+- **Advisory only.** No certified safety function, no class approval, no guaranteed diagnosis, no proven savings. Existing alarms and trips stay authoritative.
